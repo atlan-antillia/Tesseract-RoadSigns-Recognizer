@@ -13,7 +13,7 @@ Please run the following command to recognize strings in RoadSigns in <a href=".
  python TesseractRoadSignsRecognizer.py ./sample  ./annotation/roadsigns160.json ./sample_detection
 </pre>
 
-The images in <a href="./sample">sample</a> folder have been take from <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">PNG_USA_RoadSigns_160classes_V2</a>
+The images in <a href="./sample">sample</a> folder have been taken from <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">PNG_USA_RoadSigns_160classes_V2</a>
 , and transformed by ImageWarpTrapezoider of <a href="https://github.com/sarah-antillia/ImageTransformer">ImageTransformer</a>.
 <br><br>
 <b>Recognition result: <a href="./sample_recognition">sample_recogntion</a></b><br>
