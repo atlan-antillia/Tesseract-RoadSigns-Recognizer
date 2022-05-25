@@ -5,6 +5,9 @@ We have created an <a href="./annotation/annotation.json">annotation.json</a>, a
 <a href="./CosineSimilarity.py">CosineSimilarity class</a>.
 
 to be used to recognize the text the RoadSigns in US.<br>
+Please refer the following web site on Tesseract:<br>
+<a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
+
 <br>
 Please run the following command to recognize strings in RoadSigns in <a href="./sample">sample</a> folder.<br>
 <pre>
