@@ -123,7 +123,7 @@ class TesseractRoadSignsRecognizer:
     return (annotation, cname, cos_sim)
     
   
-  def write_bounding_boxes(self, img, d, string_list, output_file):
+  def write_bounding_boxes(self, img, cname, d, string_list, output_file):
     n_boxes = len(d['level'])
     xmin = 4000
     ymin = 4000
@@ -144,7 +144,19 @@ class TesseractRoadSignsRecognizer:
             xmax = x+w
           if (y+h) > ymax:
             ymax = y+h
-      cv2.rectangle(img, (xmin, ymin), (xmax, ymax), (0, 255, 0, 255), 2)
+      color = (255, 0, 255, 255)
+      cv2.rectangle(img, (xmin, ymin), (xmax, ymax), color, 2)
+      position  = (2, 14)
+      fontFace  = cv2.FONT_HERSHEY_SIMPLEX
+      fontScale = 0.6
+      cv2.putText(img,
+            cname,
+            position,
+            fontFace,
+            fontScale,
+            color,
+            2,
+            cv2.LINE_4)
     
     cv2.imwrite(output_file, img)
 
@@ -189,7 +201,7 @@ class TesseractRoadSignsRecognizer:
         #result = self.to_double_quote(result)
         #print("--- filename {}  result {}".format(filename, result))
         output_image_file = os.path.join(output_dir, filename)
-        self.write_bounding_boxes(img, rec_dic, string_list, output_image_file)
+        self.write_bounding_boxes(img, cname, rec_dic, string_list, output_image_file)
         line = basename + CONMA + str(string_list) + CONMA + cname + CONMA + str(cos_sim)
 
         print(line)
