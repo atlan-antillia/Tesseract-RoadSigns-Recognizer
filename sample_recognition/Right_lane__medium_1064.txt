@@ -1,0 +1,1 @@
+Right_lane__medium_1064.png,['RIGHT', 'LANE'],Right_lane,1.0

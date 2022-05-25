@@ -1,0 +1,1 @@
+End_detour__medium_1015.png,['END', 'DETOUR'],End_detour,1.0

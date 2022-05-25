@@ -1,0 +1,1 @@
+No_parking_in_fire_lane__medium_1047.png,['NO', 'PARKING', 'FIRE', 'LANE'],No_parking_in_fire_lane,0.777

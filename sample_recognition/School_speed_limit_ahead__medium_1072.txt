@@ -1,0 +1,1 @@
+School_speed_limit_ahead__medium_1072.png,['SPEED', 'UM'],Minimum_speed_limit_40,0.261

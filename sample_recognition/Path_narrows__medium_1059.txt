@@ -1,0 +1,1 @@
+Path_narrows__medium_1059.png,['PATH', 'NARROWS'],Path_narrows,1.0

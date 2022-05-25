@@ -1,0 +1,1 @@
+Minimum_speed_limit_40__medium_1034.png,['MINIMUM', 'SPEED', '40'],Minimum_speed_limit_40,1.0

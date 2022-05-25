@@ -1,0 +1,320 @@
+{
+"domain:": "us_roadsigns160",
+"roadsigns": 
+  {"class_id": 1,{"class_name": "270_degree_loop","strings": []}
+  },
+  {"class_id": 2,{"class_name": "Added_lane","strings": []}
+  },
+  {"class_id": 3,{"class_name": "Added_lane_from_entering_roadway","strings": []}
+  },
+  {"class_id": 4,{"class_name": "All_way","strings": ["ALL", "WAY"]}
+  },
+  {"class_id": 5,{"class_name": "Be_prepared_to_stop","strings": ["BE", "PREPARED", "TO", "STOP"]}
+  },
+  {"class_id": 6,{"class_name": "Bicycles","strings": []}
+  },
+  {"class_id": 7,{"class_name": "Bicycles_and_pedestrians","strings": ["CD"]}
+  },
+  {"class_id": 8,{"class_name": "Bicycles_left_pedestrians_right","strings": []}
+  },
+  {"class_id": 9,{"class_name": "Bicycle_wrong_way","strings": ["WRONG", "WAY"]}
+  },
+  {"class_id": 10,{"class_name": "Bike_lane","strings": []}
+  },
+  {"class_id": 11,{"class_name": "Bike_lane_slippery_when_wet","strings": []}
+  },
+  {"class_id": 12,{"class_name": "Bump","strings": []}
+  },
+  {"class_id": 13,{"class_name": "Bus_lane","strings": ["BUS", "LANE"]}
+  },
+  {"class_id": 14,{"class_name": "Center_lane","strings": ["CENTER", "LANE"]}
+  },
+  {"class_id": 15,{"class_name": "Chevron_alignment","strings": []}
+  },
+  {"class_id": 16,{"class_name": "Circular_intersection_warning","strings": []}
+  },
+  {"class_id": 17,{"class_name": "Cross_roads","strings": []}
+  },
+  {"class_id": 18,{"class_name": "Curve","strings": []}
+  },
+  {"class_id": 19,{"class_name": "Dead_end","strings": ["DEAD", "END"]}
+  },
+  {"class_id": 20,{"class_name": "Deer_crossing","strings": []}
+  },
+  {"class_id": 21,{"class_name": "Detour","strings": []}
+  },
+  {"class_id": 22,{"class_name": "Detour_right","strings": []}
+  },
+  {"class_id": 23,{"class_name": "Dip","strings": []}
+  },
+  {"class_id": 24,{"class_name": "Double_side_roads","strings": []}
+  },
+  {"class_id": 25,{"class_name": "Do_not_drive_on_tracks","strings": []}
+  },
+  {"class_id": 26,{"class_name": "Do_not_enter","strings": ["DO", "NOT", "7", "ENTER"]}
+  },
+  {"class_id": 27,{"class_name": "Do_not_pass_stopped_trains","strings": ["DO", "NOT", "PASS"]}
+  },
+  {"class_id": 28,{"class_name": "Emergency_signal","strings": ["EMERGENCY", "SIGNAL"]}
+  },
+  {"class_id": 29,{"class_name": "End_detour","strings": ["END", "DETOUR"]}
+  },
+  {"class_id": 30,{"class_name": "Except_right_turn","strings": ["EXCEPT", "RIGHT", "TURN"]}
+  },
+  {"class_id": 31,{"class_name": "Fallen_rocks","strings": []}
+  },
+  {"class_id": 32,{"class_name": "Flagger_present","strings": []}
+  },
+  {"class_id": 33,{"class_name": "Fog_area","strings": ["FOG", "AREA"]}
+  },
+  {"class_id": 34,{"class_name": "Golf_cart_crossing","strings": []}
+  },
+  {"class_id": 35,{"class_name": "Go_on_slow","strings": ["GO", "ON", "SLOW"]}
+  },
+  {"class_id": 36,{"class_name": "Gusty_winds_area","strings": ["GUSTY", "WINDS", "AREA"]}
+  },
+  {"class_id": 37,{"class_name": "Hairpin_curve","strings": []}
+  },
+  {"class_id": 38,{"class_name": "Hazardous_material_prohibited","strings": []}
+  },
+  {"class_id": 39,{"class_name": "Hazardous_material_route","strings": []}
+  },
+  {"class_id": 40,{"class_name": "Hidden_driveway","strings": ["HIDDEN", "DRIVEWAY,"]}
+  },
+  {"class_id": 41,{"class_name": "Hill_bicycle","strings": []}
+  },
+  {"class_id": 42,{"class_name": "Horizontal_alignment_intersection","strings": []}
+  },
+  {"class_id": 43,{"class_name": "Horse_drawn_vehicle_ahead","strings": []}
+  },
+  {"class_id": 44,{"class_name": "Keep_left","strings": ["KEEP", "LEFT"]}
+  },
+  {"class_id": 45,{"class_name": "Keep_left_2","strings": ["KEEP", "LEFT"]}
+  },
+  {"class_id": 46,{"class_name": "Keep_right","strings": ["KEEP", "RIGHT"]}
+  },
+  {"class_id": 47,{"class_name": "Keep_right_2","strings": ["KEEP", "RIGHT"]}
+  },
+  {"class_id": 48,{"class_name": "Lane_ends","strings": []}
+  },
+  {"class_id": 49,{"class_name": "Left_lane","strings": ["LEFT", "LANE"]}
+  },
+  {"class_id": 50,{"class_name": "Left_turn_only","strings": []}
+  },
+  {"class_id": 51,{"class_name": "Left_turn_or_straight","strings": []}
+  },
+  {"class_id": 52,{"class_name": "Left_turn_yield_on_green","strings": ["LEFT", "TURN", "YIELD", "ON", "GREEN"]}
+  },
+  {"class_id": 53,{"class_name": "Loading_zone","strings": ["LOADING", "ZONE"]}
+  },
+  {"class_id": 54,{"class_name": "Low_clearance","strings": []}
+  },
+  {"class_id": 55,{"class_name": "Low_ground_clearance_railroad_crossing","strings": []}
+  },
+  {"class_id": 56,{"class_name": "Merge","strings": []}
+  },
+  {"class_id": 57,{"class_name": "Merging_traffic","strings": []}
+  },
+  {"class_id": 58,{"class_name": "Metric_low_clearance","strings": []}
+  },
+  {"class_id": 59,{"class_name": "Minimum_speed_limit_40","strings": ["MINIMUM", "SPEED", "40"]}
+  },
+  {"class_id": 60,{"class_name": "Minimum_speed_limit_60km","strings": ["MINIMUM", "SPEED"]}
+  },
+  {"class_id": 61,{"class_name": "Narrow_bridge","strings": ["NARROW", "BRIDGE"]}
+  },
+  {"class_id": 62,{"class_name": "National_network_prohibited","strings": []}
+  },
+  {"class_id": 63,{"class_name": "National_network_route","strings": []}
+  },
+  {"class_id": 64,{"class_name": "Night_speed_limit_45","strings": []}
+  },
+  {"class_id": 65,{"class_name": "Night_speed_limit_70km","strings": ["NIGHT"]}
+  },
+  {"class_id": 66,{"class_name": "No_bicycles","strings": []}
+  },
+  {"class_id": 67,{"class_name": "No_entre","strings": []}
+  },
+  {"class_id": 68,{"class_name": "No_hitch_hiking","strings": []}
+  },
+  {"class_id": 69,{"class_name": "No_horseback_riding","strings": []}
+  },
+  {"class_id": 70,{"class_name": "No_large_trucks","strings": []}
+  },
+  {"class_id": 71,{"class_name": "No_left_or_u_turn","strings": ["A"]}
+  },
+  {"class_id": 72,{"class_name": "No_left_turn","strings": []}
+  },
+  {"class_id": 73,{"class_name": "No_left_turn_across_tracks","strings": ["NO", "LEFT", "TURN", "ACROSS", "TRACKS"]}
+  },
+  {"class_id": 74,{"class_name": "No_outlet","strings": []}
+  },
+  {"class_id": 75,{"class_name": "No_parking","strings": []}
+  },
+  {"class_id": 76,{"class_name": "No_parking_bus_stop","strings": ["NOE", "BUS", "STOP"]}
+  },
+  {"class_id": 77,{"class_name": "No_parking_from_830am_to_530pm","strings": ["AM", "PM"]}
+  },
+  {"class_id": 78,{"class_name": "No_parking_from_830am_to_530pm_2","strings": ["NO", "PARKING", "8:30AM", "PM"]}
+  },
+  {"class_id": 79,{"class_name": "No_parking_in_fire_lane","strings": ["PARKING", "FIRE", "LANE"]}
+  },
+  {"class_id": 80,{"class_name": "No_parking_loading_zone","strings": ["NO", "PARKING", "LOADING", "ZONE", "SS"]}
+  },
+  {"class_id": 81,{"class_name": "No_parking_on_pavement","strings": ["NO", "PARKING", "ON", "PAVEMENT"]}
+  },
+  {"class_id": 82,{"class_name": "No_pedestrians","strings": ["NO", "PEDESTRIANS"]}
+  },
+  {"class_id": 83,{"class_name": "No_pedestrian_crossing","strings": []}
+  },
+  {"class_id": 84,{"class_name": "No_right_turn","strings": []}
+  },
+  {"class_id": 85,{"class_name": "No_rollerblading","strings": []}
+  },
+  {"class_id": 86,{"class_name": "No_standing_any_time","strings": ["NO", "STANDING", "ANY", "TIME"]}
+  },
+  {"class_id": 87,{"class_name": "No_stopping_on_pavement","strings": ["NO", "STOPPING", "ON", "PAVEMENT"]}
+  },
+  {"class_id": 88,{"class_name": "No_straight_through","strings": ["I"]}
+  },
+  {"class_id": 89,{"class_name": "No_train_horn_warning","strings": ["NO", "TRAIN", "HORN"]}
+  },
+  {"class_id": 90,{"class_name": "No_turns","strings": ["NO", "TURNS"]}
+  },
+  {"class_id": 91,{"class_name": "No_unauthorized_vehicles","strings": ["AUTHORIZED", "VEHICLES", "ONLY"]}
+  },
+  {"class_id": 92,{"class_name": "No_u_turn","strings": []}
+  },
+  {"class_id": 93,{"class_name": "Offset_roads","strings": []}
+  },
+  {"class_id": 94,{"class_name": "One_direction","strings": []}
+  },
+  {"class_id": 95,{"class_name": "One_way","strings": []}
+  },
+  {"class_id": 96,{"class_name": "Parking_with_time_restrictions","strings": ["2", "PARKING", "8:30AM", "10530", "PM"]}
+  },
+  {"class_id": 97,{"class_name": "Pass_on_either_side","strings": []}
+  },
+  {"class_id": 98,{"class_name": "Pass_road","strings": []}
+  },
+  {"class_id": 99,{"class_name": "Path_narrows","strings": ["PATH", "NARROWS,"]}
+  },
+  {"class_id": 100,{"class_name": "Pedestrian_crossing","strings": []}
+  },
+  {"class_id": 101,{"class_name": "Railroad_crossing","strings": ["KP)"]}
+  },
+  {"class_id": 102,{"class_name": "Railroad_crossing_ahead","strings": []}
+  },
+  {"class_id": 103,{"class_name": "Railroad_intersection_warning","strings": []}
+  },
+  {"class_id": 104,{"class_name": "Ramp_narrows","strings": ["RAMP", "|ARROW:"]}
+  },
+  {"class_id": 105,{"class_name": "Reserved_parking_wheelchair","strings": ["RESERVED", "PARKING"]}
+  },
+  {"class_id": 106,{"class_name": "Reverse_curve","strings": []}
+  },
+  {"class_id": 107,{"class_name": "Reverse_turn","strings": []}
+  },
+  {"class_id": 108,{"class_name": "Right_lane","strings": ["RIGHT", "LANE"]}
+  },
+  {"class_id": 109,{"class_name": "Right_turn_only","strings": []}
+  },
+  {"class_id": 110,{"class_name": "Right_turn_or_straight","strings": []}
+  },
+  {"class_id": 111,{"class_name": "Road_closed","strings": ["ROAD", "CLOSED"]}
+  },
+  {"class_id": 112,{"class_name": "Road_closed_ahead","strings": ["ROAD", "CLOSED", "AHEAD"]}
+  },
+  {"class_id": 113,{"class_name": "Road_narrows","strings": ["ROAD", "NARROWS,"]}
+  },
+  {"class_id": 114,{"class_name": "Road_slippery_when_wet","strings": []}
+  },
+  {"class_id": 115,{"class_name": "Rough_road","strings": ["ROUGH", "ROAD"]}
+  },
+  {"class_id": 116,{"class_name": "Runaway_vehicles_only","strings": ["RUNAWAY", "VEHICLES", "ONLY"]}
+  },
+  {"class_id": 117,{"class_name": "School","strings": ["(SCHOOL]"]}
+  },
+  {"class_id": 118,{"class_name": "School_advance","strings": []}
+  },
+  {"class_id": 119,{"class_name": "School_bus_stop_ahead","strings": []}
+  },
+  {"class_id": 120,{"class_name": "School_bus_turn_ahead","strings": ["SCHOOL", "BUS", "TURN", "AHEAD,"]}
+  },
+  {"class_id": 121,{"class_name": "School_speed_limit_ahead","strings": ["ÅeSCHOOL", "ÅeSPEED", "LIMIT"]}
+  },
+  {"class_id": 122,{"class_name": "Sharp_turn","strings": []}
+  },
+  {"class_id": 123,{"class_name": "Side_road_at_an_acute_angle","strings": []}
+  },
+  {"class_id": 124,{"class_name": "Side_road_at_a_perpendicular_angle","strings": []}
+  },
+  {"class_id": 125,{"class_name": "Single_lane_shift_left","strings": []}
+  },
+  {"class_id": 126,{"class_name": "Skewed_railroad_crossing","strings": []}
+  },
+  {"class_id": 127,{"class_name": "Snowmobile","strings": []}
+  },
+  {"class_id": 128,{"class_name": "Speed_limit_50","strings": ["SPEED", "LIMIT", "30"]}
+  },
+  {"class_id": 129,{"class_name": "Speed_limit_80km","strings": ["SPEED", "LIMIT"]}
+  },
+  {"class_id": 130,{"class_name": "Stay_in_lane","strings": ["STAY", "IN", "LANE"]}
+  },
+  {"class_id": 131,{"class_name": "Steep grade","strings": []}
+  },
+  {"class_id": 132,{"class_name": "Steep_grade_percentage","strings": []}
+  },
+  {"class_id": 133,{"class_name": "Stop","strings": []}
+  },
+  {"class_id": 134,{"class_name": "Stop_here_for_pedestrians","strings": ["HERE", "FOR", "PEDESTRIANS"]}
+  },
+  {"class_id": 135,{"class_name": "Stop_here_for_peds","strings": ["HERE"]}
+  },
+  {"class_id": 136,{"class_name": "Straight_ahead_only","strings": ["ONLY"]}
+  },
+  {"class_id": 137,{"class_name": "Tractor_farm_vehicle_crossing","strings": []}
+  },
+  {"class_id": 138,{"class_name": "Tractor_farm_vehicle_crossing_2","strings": []}
+  },
+  {"class_id": 139,{"class_name": "Truck crossing_2","strings": []}
+  },
+  {"class_id": 140,{"class_name": "Truck_crossing","strings": ["TRUCK", "CROSSING"]}
+  },
+  {"class_id": 141,{"class_name": "Truck_rollover_warning","strings": []}
+  },
+  {"class_id": 142,{"class_name": "Truck_route_sign","strings": ["TRUCK", "ROUTE"]}
+  },
+  {"class_id": 143,{"class_name": "Truck_speed_limit_40","strings": ["TRUCKS", "40"]}
+  },
+  {"class_id": 144,{"class_name": "Turning_vehicles_yield_to_pedestrians","strings": ["TURNING", "VEHICLES", "TO", "R"]}
+  },
+  {"class_id": 145,{"class_name": "Turn_only_lanes","strings": ["ONLY", "JONLY", "JONLY}"]}
+  },
+  {"class_id": 146,{"class_name": "Two_direction","strings": []}
+  },
+  {"class_id": 147,{"class_name": "Two_way_traffic","strings": []}
+  },
+  {"class_id": 148,{"class_name": "T_roads","strings": []}
+  },
+  {"class_id": 149,{"class_name": "Wait_on_stop","strings": ["WAIT", "ON", "STOP"]}
+  },
+  {"class_id": 150,{"class_name": "Weight_limit_10t","strings": ["WEIGHT", "LIMIT", "10", "TONS"]}
+  },
+  {"class_id": 151,{"class_name": "Winding_road","strings": []}
+  },
+  {"class_id": 152,{"class_name": "Workers_on_road","strings": []}
+  },
+  {"class_id": 153,{"class_name": "Work_zone_for_speed_limit","strings": []}
+  },
+  {"class_id": 154,{"class_name": "Wrong_way","strings": ["WRONG", "WAY"]}
+  },
+  {"class_id": 155,{"class_name": "Yield","strings": ["W/"]}
+  },
+  {"class_id": 156,{"class_name": "Yield_here_to_pedestrians","strings": ["HERE", "TO", "PEDESTRIANS"]}
+  },
+  {"class_id": 157,{"class_name": "Yield_here_to_peds","strings": ["HERE", "ITA"]}
+  },
+  {"class_id": 158,{"class_name": "Y_roads","strings": ["Y"]}
+  },
+}

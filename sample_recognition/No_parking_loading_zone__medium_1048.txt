@@ -1,0 +1,1 @@
+No_parking_loading_zone__medium_1048.png,['NO', 'PARKING||', 'LOADING', 'ZONE'],No_parking_loading_zone,1.0

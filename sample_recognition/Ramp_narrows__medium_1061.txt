@@ -1,0 +1,1 @@
+Ramp_narrows__medium_1061.png,['RAMP', 'JARROW:'],Ramp_narrows,0.336

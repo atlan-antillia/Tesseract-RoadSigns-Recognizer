@@ -1,0 +1,1 @@
+Bus_lane__medium_1006.png,['BUS', 'LANE'],Bus_lane,1.0

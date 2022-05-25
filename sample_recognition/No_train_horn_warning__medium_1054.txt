@@ -1,0 +1,1 @@
+No_train_horn_warning__medium_1054.png,['NO', 'TRAIN', 'HORN'],No_train_horn_warning,1.0

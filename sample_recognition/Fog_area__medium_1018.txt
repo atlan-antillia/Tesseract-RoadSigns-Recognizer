@@ -1,0 +1,1 @@
+Fog_area__medium_1018.png,['FOG', 'AREA'],Fog_area,1.0

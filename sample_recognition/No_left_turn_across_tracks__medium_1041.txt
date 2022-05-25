@@ -1,0 +1,1 @@
+No_left_turn_across_tracks__medium_1041.png,['NO', 'LEFT', 'TURN', 'ACROSS', 'TRACKS'],No_left_turn_across_tracks,1.0

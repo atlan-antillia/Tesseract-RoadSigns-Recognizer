@@ -1,0 +1,1 @@
+No_parking_any_time__medium_1043.png,['NO', 'PARKING', 'ANY', 'TIME'],No_parking_any_time,1.0

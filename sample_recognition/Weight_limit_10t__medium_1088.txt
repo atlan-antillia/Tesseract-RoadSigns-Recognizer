@@ -1,0 +1,1 @@
+Weight_limit_10t__medium_1088.png,['WEIGHT', 'LIMIT', '10', 'TONS'],Weight_limit_10t,1.0

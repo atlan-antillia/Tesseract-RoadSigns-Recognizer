@@ -1,0 +1,1 @@
+Left_turn_yield_on_green__medium_1030.png,['LEFT', 'TURN', 'YIELD', 'ON', 'GREEN'],Left_turn_yield_on_green,1.0

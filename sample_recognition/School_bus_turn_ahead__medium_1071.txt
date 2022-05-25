@@ -1,0 +1,1 @@
+School_bus_turn_ahead__medium_1071.png,['SCHOOL', 'BUS', 'TURN', 'AHEAD'],School_bus_turn_ahead,1.0

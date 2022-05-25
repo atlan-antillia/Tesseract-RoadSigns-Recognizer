@@ -1,0 +1,1 @@
+Go_on_slow__medium_1019.png,['GO', 'ON', 'SLOW'],Go_on_slow,1.0

@@ -1,0 +1,1 @@
+Road_closed_ahead__medium_1066.png,['ROAD', 'CLOSED', 'AHEAD'],Road_closed_ahead,1.0

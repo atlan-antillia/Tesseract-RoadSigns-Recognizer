@@ -1,0 +1,1 @@
+Turning_vehicles_yield_to_pedestrians__medium_1085.png,['TURNING', 'VEHICLES', 'V', 'R'],Turning_vehicles_yield_to_pedestrians,0.411

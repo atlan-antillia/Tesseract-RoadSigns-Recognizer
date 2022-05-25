@@ -1,0 +1,1 @@
+No_parking_on_pavement__medium_1049.png,['PARKING', 'ON', 'PAVEMENT'],No_parking_on_pavement,0.777

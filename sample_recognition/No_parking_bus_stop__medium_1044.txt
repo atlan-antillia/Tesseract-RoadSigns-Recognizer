@@ -1,0 +1,1 @@
+No_parking_bus_stop__medium_1044.png,['NORE]', 'BUS', 'STOP'],No_parking_bus_stop,0.503

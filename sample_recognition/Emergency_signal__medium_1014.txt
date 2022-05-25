@@ -1,0 +1,1 @@
+Emergency_signal__medium_1014.png,['EMERGENCY', 'SIGNAL'],Emergency_signal,1.0

@@ -1,0 +1,1 @@
+No_turns__medium_1055.png,['NO', 'TURNS'],No_turns,1.0

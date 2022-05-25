@@ -1,0 +1,1 @@
+Except_right_turn__medium_1016.png,['EXCEPT', 'RIGHT', 'TURN'],Except_right_turn,1.0

@@ -1,0 +1,1 @@
+Keep_left__medium_1025.png,['KEEP', 'LEFT'],Keep_left,1.0

@@ -1,0 +1,1 @@
+Speed_limit_80km__medium_1075.png,['SPEED', 'LIMIT'],School_speed_limit_ahead,0.709

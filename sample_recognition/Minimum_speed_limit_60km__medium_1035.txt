@@ -1,0 +1,1 @@
+Minimum_speed_limit_60km__medium_1035.png,['MINIMUM', 'SPEED', 'UAL'],Minimum_speed_limit_40,0.503

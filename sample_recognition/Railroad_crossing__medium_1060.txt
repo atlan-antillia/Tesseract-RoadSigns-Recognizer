@@ -1,0 +1,1 @@
+Railroad_crossing__medium_1060.png,['RY', '3', 'OY', 'NG'],Metric_low_clearance,0.22

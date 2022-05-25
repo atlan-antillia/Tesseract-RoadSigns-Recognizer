@@ -1,0 +1,1 @@
+Truck_route_sign__medium_1083.png,['TRUCK', 'ROUTE'],Truck_route_sign,1.0

@@ -1,0 +1,1 @@
+Bicycles_left_pedestrians_right__medium_1002.png,['KEEP', 'R'],Keep_left,0.336

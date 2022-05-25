@@ -1,0 +1,1 @@
+No_pedestrians__medium_1051.png,['PEDESTRIANS'],No_pedestrians,0.58

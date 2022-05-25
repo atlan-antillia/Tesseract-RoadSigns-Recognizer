@@ -1,0 +1,1 @@
+Center_lane__medium_1007.png,['CENTER', 'LANE]'],Center_lane,1.0

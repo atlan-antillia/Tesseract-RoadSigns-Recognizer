@@ -1,0 +1,1 @@
+No_stopping_on_pavement__medium_1053.png,['STOPPING', 'ON', 'PAVEMENT'],No_stopping_on_pavement,0.777

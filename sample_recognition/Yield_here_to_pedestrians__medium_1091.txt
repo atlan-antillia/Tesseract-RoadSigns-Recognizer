@@ -1,0 +1,1 @@
+Yield_here_to_pedestrians__medium_1091.png,['HERE', 'PEDESTRIANS'],Yield_here_to_pedestrians,0.709

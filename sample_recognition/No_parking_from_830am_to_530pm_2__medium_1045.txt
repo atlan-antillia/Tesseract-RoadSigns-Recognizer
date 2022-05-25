@@ -1,0 +1,1 @@
+No_parking_from_830am_to_530pm_2__medium_1045.png,['NO', 'PARKING', 'AM', '10', '5:30PM'],No_parking_any_time,0.261

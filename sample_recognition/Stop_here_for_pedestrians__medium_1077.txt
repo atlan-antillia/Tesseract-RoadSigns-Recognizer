@@ -1,0 +1,1 @@
+Stop_here_for_pedestrians__medium_1077.png,['HERE', 'FOR', 'PEDESTRIANS'],Stop_here_for_pedestrians,0.777

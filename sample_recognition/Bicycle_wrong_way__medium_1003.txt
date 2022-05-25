@@ -1,0 +1,1 @@
+Bicycle_wrong_way__medium_1003.png,['WRONG', 'WAY'],Bicycle_wrong_way,1.0

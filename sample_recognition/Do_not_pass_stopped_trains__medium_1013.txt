@@ -1,0 +1,1 @@
+Do_not_pass_stopped_trains__medium_1013.png,['DO', 'NOT]', 'PASS', '_J'],Do_not_pass_stopped_trains,0.777

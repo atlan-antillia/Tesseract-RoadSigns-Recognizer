@@ -1,0 +1,1 @@
+Wait_on_stop__medium_1087.png,['WAIT', 'ON', 'STOP'],Wait_on_stop,1.0

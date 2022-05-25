@@ -1,0 +1,1 @@
+Night_speed_limit_70km__medium_1038.png,['NE', 'HT', 'UAL'],,0

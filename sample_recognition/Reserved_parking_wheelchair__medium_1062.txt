@@ -1,0 +1,1 @@
+Reserved_parking_wheelchair__medium_1062.png,['RESERVED!', 'PARKING', 'BI', '4'],Reserved_parking_wheelchair,0.58

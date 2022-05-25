@@ -1,0 +1,1 @@
+Parking_with_time_restrictions__medium_1058.png,['PARKING', '8:30AM', 'T0530', 'PM'],Steep_grade,0.335

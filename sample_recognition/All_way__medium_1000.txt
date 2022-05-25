@@ -1,0 +1,1 @@
+All_way__medium_1000.png,['ALL', 'WAY'],All_way,1.0

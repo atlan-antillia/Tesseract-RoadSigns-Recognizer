@@ -1,0 +1,1 @@
+Road_narrows__medium_1068.png,['ROAD', 'NARROWS'],Road_narrows,1.0

@@ -1,0 +1,1 @@
+Gusty_winds_area__medium_1020.png,['GUSTY', 'WINDS', 'AREA'],Gusty_winds_area,1.0

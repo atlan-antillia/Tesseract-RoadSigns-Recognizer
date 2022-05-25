@@ -1,0 +1,1 @@
+Truck_crossing__medium_1082.png,['TRUCK', 'CROSSING'],Truck_crossing,1.0
