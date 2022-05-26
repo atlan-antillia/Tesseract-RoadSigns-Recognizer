@@ -14,7 +14,7 @@ TesseractRoadSignsRecognizer,py</a>. The pytesseract is a wrapper for <a href="h
 <br>
 Please run the following command to recognize the strings in RoadSigns in <a href="./sample">sample</a> folder.<br>
 <pre>
- python TesseractRoadSignsRecognizer.py ./sample  ./annotation/roadsigns160.json ./sample_detection
+ python TesseractRoadSignsRecognizer.py ./sample  ./annotation/annotation.json ./sample_detection
 </pre>
 
 The images in <a href="./sample">sample</a> folder have been taken from <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">PNG_USA_RoadSigns_160classes_V2</a>
