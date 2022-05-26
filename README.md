@@ -1,6 +1,6 @@
 <h1> Tesseract-RoadSigns-Recognizer (Updated: 2022/05/26)</h1>
 
-This is a simple example to recognize the strings in the RoadSigns in US images.<br>
+This is a simple example to recognize the strings in the images of RoadSigns.<br>
 We have created an <a href="./annotation/annotation.json">annotation.json</a>, and <a href="./TesseractRoadSignsRecognizer.py">
 TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class to recognize the text in the 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.<br><br>
