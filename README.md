@@ -117,7 +117,7 @@ The images in <a href="./sample">sample</a> folder have been taken from <a href=
 <img src='./sample_recognition/Bike_lane__medium_1004.png' width='160' height='auto'>
 </td>
 <td wrap>
-<a href='./sample_recognition/Bike_lane__medium_1004.txt'>Bike_lane__medium_1004.png,['[BIKE', 'LANE'],Bus_lane,0.336</a>
+<a href='./sample_recognition/Bike_lane__medium_1004.txt'>Bike_lane__medium_1004.png,['[BIKE', 'LANE'],Bike_lane,1.0</a>
 </td>
 </tr>
 <tr>
