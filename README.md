@@ -6,7 +6,7 @@ TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">Cosin
 <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
 
-<br><br>
+<br>
 On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
 <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
 <br>
