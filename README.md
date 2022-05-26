@@ -1,6 +1,6 @@
 <h1> Tesseract-RoadSigns-Recognizer (Updated: 2022/05/26)</h1>
 
-This is a simple example to recognize the strings in the images of RoadSigns by using Tesseract ORC Engine.<br>
+This is a simple example to recognize the strings in the images of RoadSigns by using OCR Engine.<br>
 We have created an <a href="./annotation/annotation.json">annotation.json</a>, and <a href="./TesseractRoadSignsRecognizer.py">
 TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class to recognize the text in the RoadSigns images of  
 <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
