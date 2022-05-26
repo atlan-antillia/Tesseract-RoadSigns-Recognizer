@@ -23,8 +23,8 @@ The images in <a href="./sample">sample</a> folder have been taken from <a href=
 <b>Recognition result: <a href="./sample_recognition">sample_recogntion</a></b><br>
 <table>
 <tr>
-<th >Recoginized_image</th>
-<th >Image_name, String_list, Class_name, Similarity</th>
+<th >RecoginizedImage</th>
+<th >ImageFile, StringList, Class, Similarity</th>
 </tr>
 <tr>
 <td wrap>
