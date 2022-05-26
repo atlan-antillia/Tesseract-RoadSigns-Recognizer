@@ -1,12 +1,39 @@
 <h1> Tesseract-RoadSigns-Recognizer (Updated: 2022/05/26)</h1>
 
-This is a simple example to recognize the strings in the images of RoadSigns by using OCR Engine.<br>
+This is a simple example to recognize the strings in the images of RoadSigns by using Tesseract OCR Engine.<br>
 We have created an <a href="./annotation/annotation.json">annotation.json</a>, and <a href="./TesseractRoadSignsRecognizer.py">
-TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class to recognize the text in the RoadSigns images of  
-<a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
+TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class. Those are used to recognize the text 
+in the RoadSigns images of <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
 <br>
-The CosineSimilarity computes the similarities between the every predefined string-list of RoadSigns classes and a string-list recognized to a target image,
+The annotation.json is a list of class_id, classe_name and strings in the RoadSigns image as shown below:<br>
+Except from annotation.json:
+<pre>
+{
+"domain:": "us_roadsigns160",
+"roadsigns": [
+  {"class_id": 1,
+    "class_name": "270_degree_loop","strings": []
+  },
+  {"class_id": 2,
+    "class_name": "Added_lane","strings": []
+  },
+  {"class_id": 3,
+    "class_name": "Added_lane_from_entering_roadway","strings": []
+  },
+  {"class_id": 4,
+    "class_name": "All_way","strings": ["ALL", "WAY"]
+  },
+  {"class_id": 5,
+    "class_name": "Be_prepared_to_stop","strings": ["BE", "PREPARED", "TO", "STOP"]
+  },
+  {"class_id": 6,
+    "class_name": "Bicycle_wrong_way","strings": ["WRONG", "WAY"]
+  },
+  ...
+</pre>
+  
+The CosineSimilarity computes the similarities between the every predefined string-list of RoadSigns in the annotation.json and a string-list recognized by ORC engine to a target image,
 and select the best fitted class with the heighest similarity score for the target image.
 <br>
 On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
