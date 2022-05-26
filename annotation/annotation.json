@@ -29,7 +29,7 @@
     "class_name": "Bicycles_left_pedestrians_right","strings": []
   },
   {"class_id": 10,
-    "class_name": "Bike_lane","strings": []
+    "class_name": "Bike_lane","strings": ["BIKE", "LANE"]
   },
   {"class_id": 11,
     "class_name": "Bike_lane_slippery_when_wet","strings": []

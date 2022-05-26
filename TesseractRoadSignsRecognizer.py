@@ -22,13 +22,14 @@
 # git clone https://github.com/tesseract-ocr/tessdata_best.git
 # See also: https://stackoverflow.com/questions/20831612/getting-the-bounding-box-of-the-recognized-words-using-python-tesseract
 
+# https://nanonets.com/blog/ocr-with-tesseract/
 # -*- coding: utf-8 -*-
 
 import os
 from re import S
 import sys
 import glob
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 import cv2
 import pytesseract
 from pytesseract import Output
@@ -50,8 +51,9 @@ class TesseractRoadSignsRecognizer:
     self.lang = lang
     print("We use lang '%s'" % (self.lang))
 
-    self.config = '--psm 6'
+    #self.config = '--psm 6'
 
+    self.config = '--oem 3 --psm 6'
 
   def is_roadsigns_name(self, t):
     # Checking text t is acceptable name as the roadsigns.
@@ -129,7 +131,10 @@ class TesseractRoadSignsRecognizer:
     ymin = 4000
     xmax = 0
     ymax = 0
-
+    # img: PIL image object
+    draw = ImageDraw.Draw(img)
+    font = ImageFont.truetype('arial.ttf', 16)
+  
     if len(string_list) >0:
 
       for i in range(n_boxes):
@@ -144,21 +149,17 @@ class TesseractRoadSignsRecognizer:
             xmax = x+w
           if (y+h) > ymax:
             ymax = y+h
-      color = (255, 0, 255, 255)
-      cv2.rectangle(img, (xmin, ymin), (xmax, ymax), color, 2)
-      position  = (2, 14)
-      fontFace  = cv2.FONT_HERSHEY_SIMPLEX
-      fontScale = 0.6
-      cv2.putText(img,
-            cname,
-            position,
-            fontFace,
-            fontScale,
-            color,
-            2,
-            cv2.LINE_4)
-    
-    cv2.imwrite(output_file, img)
+      color = (0, 255, 0, 255)
+   
+      draw.rectangle([(xmin, ymin), (xmax, ymax)], 
+                    outline=color, width=2)
+
+      draw.text((2, 2),
+              cname,
+              fill=color,
+              font=font)
+    img.save(output_file)
+
 
   # recognize
   def run(self, images_dir, output_dir):
@@ -175,19 +176,11 @@ class TesseractRoadSignsRecognizer:
 
       output_file = os.path.join(output_dir, fname + ".txt")
       with open(output_file, "w", encoding='UTF-8') as f:
-        img = None
-        if file.endswith(".png"):
-          img = cv2.imread(file, cv2.IMREAD_UNCHANGED)
-        else:
-          img = cv2.imread(file) #, cv2.COLOR_BGR2GRAY)
-        
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        rev = 255 - gray
-        #rev = gray
-        #rev2 = img -128
+        img = Image.open(file)
+        gray = img.convert('L')
+        #rev = 255 - gray
+        rev = ImageOps.invert(gray)
         filename = os.path.basename(file)
-        #boxes = pytesseract.image_to_boxes(img) 
-        #dic     = pytesseract.image_to_data(img, lang=self.lang, output_type=Output.DICT, config='--psm 6')
         list1, dic1 = self.get_string_list(img)
         list2, dic2 = self.get_string_list(rev)
         string_list = list1
@@ -197,9 +190,6 @@ class TesseractRoadSignsRecognizer:
           rec_dic     = dic2
         (annotation, cname, cos_sim) = self.compute_similarity(string_list)
 
-        #print("--- filename {}  result {}".format(filename, result))
-        #result = self.to_double_quote(result)
-        #print("--- filename {}  result {}".format(filename, result))
         output_image_file = os.path.join(output_dir, filename)
         self.write_bounding_boxes(img, cname, rec_dic, string_list, output_image_file)
         line = basename + CONMA + str(string_list) + CONMA + cname + CONMA + str(cos_sim)
