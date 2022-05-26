@@ -149,7 +149,7 @@ class TesseractRoadSignsRecognizer:
             xmax = x+w
           if (y+h) > ymax:
             ymax = y+h
-      color = (0, 255, 0, 255)
+      color = (0, 140, 0, 255)
    
       draw.rectangle([(xmin, ymin), (xmax, ymax)], 
                     outline=color, width=2)
