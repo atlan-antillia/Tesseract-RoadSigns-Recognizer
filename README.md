@@ -6,7 +6,7 @@ TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">Cosin
 <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
 <br>
-The CosineSimilarity class computes the similarities between the every predefined string-list of RoadSigns classes and a string-list recognized to a target image,
+The CosineSimilarity computes the similarities between the every predefined string-list of RoadSigns classes and a string-list recognized to a target image,
 and select the best fitted class with the heighest similarity score for the target image.
 <br>
 On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
