@@ -2,9 +2,9 @@
 
 This is a simple example to recognize the strings in the RoadSigns in US images.<br>
 We have created an <a href="./annotation/annotation.json">annotation.json</a>, and <a href="./TesseractRoadSignsRecognizer.py">
-TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class, which are used to 
-recognize the text in the RoadSigns in US.<br><br>
-On Tesseract installation to Windows, please refer the following web site:<br>
+TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class to recognize the text in the 
+<a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.<br><br>
+On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
 <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
 <br>
 We use <a href="https://github.com/madmaze/pytesseract">Python Tesseract (pytesseract)</a> in <a href="./TesseractRoadSignsRecognizer.py">
