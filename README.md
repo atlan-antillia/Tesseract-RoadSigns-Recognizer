@@ -8,14 +8,14 @@ in the RoadSigns images of <a href="https://github.com/sarah-antillia/PNG_USA_Ro
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
 
 <br>
-<h3>1,1, Installation</h3>
+<h3>1.1. Installation</h3>
 On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
 <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
 <br>
 We use <a href="https://github.com/madmaze/pytesseract">Python Tesseract (pytesseract)</a> in <a href="./TesseractRoadSignsRecognizer.py">
 TesseractRoadSignsRecognizer,py</a>. The pytesseract is a wrapper for <a href="https://github.com/tesseract-ocr/tesseract">Tesseract Open Source OCR Engine</a>. 
 
-<h3>1.2, annotation.json</h3>
+<h3>1.2. annotation.json</h3>
 The annotation.json is a dictionary of class_id, classe_name and strings in the RoadSigns 160 classes as shown below:<br>
 Except from annotation.json:
 <pre>
