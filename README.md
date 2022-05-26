@@ -7,7 +7,7 @@ in the RoadSigns images of <a href="https://github.com/sarah-antillia/PNG_USA_Ro
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
 <br>
 <br>
-The annotation.json is a list of class_id, classe_name and strings in the RoadSigns image as shown below:<br>
+The annotation.json is a dictionary of class_id, classe_name and strings in the RoadSigns 160 classes as shown below:<br>
 Except from annotation.json:
 <pre>
 {
