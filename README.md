@@ -5,7 +5,6 @@ We have created an <a href="./annotation/annotation.json">annotation.json</a>, a
 TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class to recognize the text in the RoadSigns images of  
 <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
-
 <br>
 On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
 <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
@@ -23,6 +22,10 @@ The images in <a href="./sample">sample</a> folder have been taken from <a href=
 <br><br>
 <b>Recognition result: <a href="./sample_recognition">sample_recogntion</a></b><br>
 <table>
+<tr>
+<th >Recoginized_image</th>
+<th >Image_name, String_list, Class_name, Similarity</th>
+</tr>
 <tr>
 <td wrap>
 1: All_way__medium_1000.png
