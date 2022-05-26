@@ -1,12 +1,21 @@
 <h1> Tesseract-RoadSigns-Recognizer (Updated: 2022/05/26)</h1>
 
 This is a simple example to recognize the strings in the images of RoadSigns by using Tesseract OCR Engine.<br>
+<h2>1. Tesseract-RoadSigns-Recognizer</h2>
 We have created an <a href="./annotation/annotation.json">annotation.json</a>, and <a href="./TesseractRoadSignsRecognizer.py">
 TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">CosineSimilarity</a> class. Those are used to recognize the text 
 in the RoadSigns images of <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">USA_RoadSigns_160classes</a>, which is a subset of 
 <a href="https://en.wikipedia.org/wiki/Road_signs_in_the_United_States">Road signs in the United States</a>.
+
 <br>
+<h3>1,1, Installation</h3>
+On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
+<a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
 <br>
+We use <a href="https://github.com/madmaze/pytesseract">Python Tesseract (pytesseract)</a> in <a href="./TesseractRoadSignsRecognizer.py">
+TesseractRoadSignsRecognizer,py</a>. The pytesseract is a wrapper for <a href="https://github.com/tesseract-ocr/tesseract">Tesseract Open Source OCR Engine</a>. 
+
+<h3>1.2, annotation.json</h3>
 The annotation.json is a dictionary of class_id, classe_name and strings in the RoadSigns 160 classes as shown below:<br>
 Except from annotation.json:
 <pre>
@@ -33,16 +42,18 @@ Except from annotation.json:
   },
   ...
 </pre>
-  
-The CosineSimilarity computes the similarities between the every predefined string-list of RoadSigns in the annotation.json and a string-list recognized by ORC engine to a target image,
+
+<h3>1.3. TesseractRoadSignsRecognizer</h2>
+This is a main Python script to recognize strings in the images of RoadSigns based on pytesseract (Tesseract OCR Engine).
+
+<h3>1.4. CosineSimilarity</h2>
+  This computes the similarities between the every predefined string-list of RoadSigns in the annotation.json and a string-list recognized by ORC engine to a target image,
 and select the best fitted class with the heighest similarity score for the target image.
 <br>
-On installation of Tesseract-OCR to Windows, please refer the following web site:<br>
-<a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
+
 <br>
-We use <a href="https://github.com/madmaze/pytesseract">Python Tesseract (pytesseract)</a> in <a href="./TesseractRoadSignsRecognizer.py">
-TesseractRoadSignsRecognizer,py</a>. The pytesseract is a wrapper for <a href="https://github.com/tesseract-ocr/tesseract">Tesseract Open Source OCR Engine</a>. 
-<br>
+<h2>2. Recognizer</h2>
+<h3>2.1. Run Recognizer </h3>
 Please run the following command to recognize the strings in RoadSigns in <a href="./sample">sample</a> folder.<br>
 <pre>
  python TesseractRoadSignsRecognizer.py ./sample  ./annotation/annotation.json ./sample_detection
@@ -50,7 +61,9 @@ Please run the following command to recognize the strings in RoadSigns in <a hre
 
 The images in <a href="./sample">sample</a> folder have been taken from <a href="https://github.com/sarah-antillia/PNG_USA_RoadSigns_160classes_V2">PNG_USA_RoadSigns_160classes_V2</a>
 , and transformed by ImageWarpTrapezoider of <a href="https://github.com/sarah-antillia/ImageTransformer">ImageTransformer</a>.
-<br><br>
+<br>
+<h3>2.2. Recognition Result </h3>
+
 <b>Recognition result: <a href="./sample_recognition">sample_recogntion</a></b><br>
 <table>
 <tr>
