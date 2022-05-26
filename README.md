@@ -6,9 +6,11 @@ TesseractRoadSignsRecognizer</a> class and <a href="./CosineSimilarity.py">Cosin
 recognize the text in the RoadSigns in US.<br><br>
 On Tesseract installation to Windows, please refer the following web site:<br>
 <a href="https://github.com/UB-Mannheim/tesseract/wiki">Tesseract at UB Mannheim</a>
-
 <br>
-Please run the following command to recognize strings in RoadSigns in <a href="./sample">sample</a> folder.<br>
+We use <a href="https://github.com/madmaze/pytesseract">Python Tesseract (pytesseract)</a> in <a href="./TesseractRoadSignsRecognizer.py">
+TesseractRoadSignsRecognizer,py</a>. The pytesseract is a wrapper for <a href="https://github.com/tesseract-ocr/tesseract">Tesseract Open Source OCR Engine</a>. 
+<br>
+Please run the following command to recognize the strings in RoadSigns in <a href="./sample">sample</a> folder.<br>
 <pre>
  python TesseractRoadSignsRecognizer.py ./sample  ./annotation/roadsigns160.json ./sample_detection
 </pre>
