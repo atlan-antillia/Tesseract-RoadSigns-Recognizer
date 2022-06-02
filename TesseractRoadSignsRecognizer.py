@@ -121,10 +121,8 @@ class TesseractRoadSignsRecognizer:
             cos_sim    = sim
             annotation = anno_strings
 
-    #print("--- compute_similarity {} {} {}".format(annotation, cname, cos_sim))
     return (annotation, cname, cos_sim)
     
-  
   def write_bounding_boxes(self, img, cname, d, string_list, output_file):
     n_boxes = len(d['level'])
     xmin = 4000
