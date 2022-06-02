@@ -387,7 +387,7 @@ The images in <a href="./sample">sample</a> folder have been taken from <a href=
 <img src='./sample_recognition/Loading_zone__medium_1031.png' width='160' height='auto'>
 </td>
 <td wrap>
-<a href='./sample_recognition/Loading_zone__medium_1031.txt'>Loading_zone__medium_1031.png,['LOADING', 'ZONE'],Loading_zone,1.0</a>
+<a href='./sample_recognition/Loading_zone__medium_1031.txt'>['LOADING', 'ZONE'],Loading_zone,1.0</a>
 </td>
 </tr>
 <tr>
@@ -477,7 +477,7 @@ The images in <a href="./sample">sample</a> folder have been taken from <a href=
 <img src='./sample_recognition/No_entre__medium_1040.png' width='160' height='auto'>
 </td>
 <td wrap>
-<a href='./sample_recognition/No_entre__medium_1040.txt'>No_entre__medium_1040.png,[],,0</a>
+<a href='./sample_recognition/No_entre__medium_1040.txt'>[],,0</a>
 </td>
 </tr>
 <tr>
